@@ -3,10 +3,10 @@ import propTypes from 'prop-types'
 
 import { Icon, Button } from 'components'
 
-const ButtonWithIconAndText = () => (
+const ButtonWithIconAndText = (props) => (
   <Button>
-    <Icon icon="heart" />
-    Hello
+    <Icon icon={props.icon} />
+    Hello goodbye
   </Button>
 )
 

@@ -1,5 +1,5 @@
 {
-  "name": "testing_storybook_dev",
+  "name": "react-atomic-design",
   "version": "0.1.0",
   "private": true,
   "main": "dist/server",

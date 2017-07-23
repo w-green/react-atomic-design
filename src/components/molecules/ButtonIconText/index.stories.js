@@ -4,5 +4,5 @@ import ButtonWithIconAndText from '.'
 
 storiesOf('ButtonWithIconAndText', module)
   .add('default', () => (
-    <ButtonWithIconAndText>Goodbye</ButtonWithIconAndText>
+    <ButtonWithIconAndText icon="heart">Goodbye</ButtonWithIconAndText>
   ))
